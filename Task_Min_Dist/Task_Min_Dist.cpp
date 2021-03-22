@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "rus");
     int amount;
-    cout << "Введите количество чисел:\t";
+    cout << "Введите количество точек:\t";
     cin >> amount;
     point* points = new point[amount];
     for (int i = 0; i < amount; i++) {
